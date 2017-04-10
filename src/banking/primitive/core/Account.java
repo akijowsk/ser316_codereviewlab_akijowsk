@@ -1,5 +1,15 @@
 package banking.primitive.core;
 
+/**
+ * File: Account.java
+ * Author: Adam Kijowski
+ * Date: 4/10/17
+ * 
+ * Description: Abstract Account class.  Includes "state", "balance", and "name" for a concrete Account class.
+ * 
+ * @author akijowski
+ *
+ */
 public abstract class Account implements java.io.Serializable {
     private static final long serialVersionUID = 1L;
 
